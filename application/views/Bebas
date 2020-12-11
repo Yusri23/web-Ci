@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ControllerB</title>
+	<link rel="stylesheet" type="text/css" href="<?= base_url('assets/css/
+	bootstrap.min.css')?>">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light" 
+	style="background-color: blue">
+		<a href="" class="navbar-brand">
+			Tugas
+		</a>
+		<div class="navbar-nav">
+			<a href="" class="nav-link">Home</a>
+			<a href="" class="nav-link">Tambah Data</a>
+		</div>
+
+	</nav>
+
+	<div class="alert alert-success text-center mt-4">
+		Data Mahasiswa
+	</div>
+
+	<div class="container">
+	<table class="table table-bordered table-sm">
+		<tr>
+			<th width="10%">No</th>
+			<th>jurusan</th>
+			<th>kelas</th>
+			<th>isi</th>
+			<th width="10%">Aksi</th>
+		</tr>
+		<tr>
+			<td>tekhnik_bangunan</td>
+			<td>s1</td>
+			<td>1813</td>
+			<td>Mataram</td>
+			<td>
+				<a href="" class="btn btn-info btn-sm">Edit</a>
+				<a href="" class="btn btn-danger btn-sm">Hapus</a>
+			</td>
+		</tr>
+	</table>
+	</div>
+</body>
+</html>
